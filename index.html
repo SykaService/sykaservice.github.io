@@ -6,7 +6,7 @@
     <title>SykaService - Vernetzte Handwerker</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f0f0f0;
@@ -24,19 +24,21 @@
             margin-bottom: 1em;
         }
         nav {
-            margin: 0 auto;
-            text-align: center;
-            background: #005bb5;
+            background-color: #005bb5;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
         }
         nav a {
-            display: inline-block;
-            padding: 15px 25px;
             color: #fff;
+            padding: 14px 20px;
             text-decoration: none;
+            text-transform: uppercase;
             font-weight: bold;
+            transition: background 0.3s;
         }
         nav a:hover {
-            background: #004080;
+            background-color: #004080;
         }
         .container {
             max-width: 1200px;
@@ -50,24 +52,11 @@
             color: #333;
         }
         .service {
-            padding: 20px;
             margin: 20px 0;
-            border-bottom: 1px solid #ddd;
-        }
-        .service:last-child {
-            border-bottom: none;
-        }
-        .services {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
-        .service {
-            flex: 1 1 300px;
-            margin: 10px;
             padding: 20px;
-            background: #f9f9f9;
+            border: 1px solid #ddd;
             border-radius: 8px;
+            background: #f9f9f9;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
         footer {
@@ -116,27 +105,22 @@
                 <h3>Badsanierung</h3>
                 <p>Von der Demontage alter Sanitärobjekte bis zur Installation neuer Wasser- und Abwasserleitungen bieten wir umfassende Badsanierungsdienste an.</p>
             </div>
-
             <div class="service">
                 <h3>Solar- und Photovoltaikanlagen</h3>
                 <p>Wir übernehmen die Montage und Installation von Solar- und Photovoltaikanlagen, um Ihr Zuhause energieeffizienter zu gestalten.</p>
             </div>
-
             <div class="service">
                 <h3>Elektrik</h3>
                 <p>Von der Neuinstallation von Elektroverteilungen bis hin zur Montage von Steckdosen und Lichtschaltern bieten wir umfassende Elektroarbeiten an.</p>
             </div>
-
             <div class="service">
                 <h3>Malerarbeiten</h3>
                 <p>Wir übernehmen alle Arten von Malerarbeiten, von der Entfernung alter Tapeten bis hin zum Auftragen von Oberputz auf Kalkbasis für ein optimales Wohnraumklima.</p>
             </div>
-
             <div class="service">
                 <h3>Fliesenleger</h3>
                 <p>Unsere Fliesenleger sorgen für eine professionelle Verlegung und Verfugung von Wand- und Bodenfliesen in Ihrem Zuhause.</p>
             </div>
-
             <div class="service">
                 <h3>Schreiner</h3>
                 <p>Unsere Schreiner bieten maßgeschneiderte Holzarbeiten, von der Möbelanfertigung bis hin zu individuellen Innenausbauten.</p>
